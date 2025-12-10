@@ -9,12 +9,12 @@ public interface SubjectService {
 
 	List<SubjectDto> findAllSubject();
 
-//	boolean addNewSub(Subject s);
-//
-//	boolean deleteSub(int sid);
-//
-//	Subject getById(int sid);
-//
-//	boolean editSubject(Subject s);
+	SubjectDto getBySubId(int sid);
+
+	void addNewSubject(SubjectDto s);
+
+	void deleteSubject(int s);
+
+	void modifySubject(SubjectDto sid);
 
 }
